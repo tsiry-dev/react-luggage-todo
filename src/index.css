@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.input {
+  @apply border-none px-3 py-2 rounded-lg focus:outline-none text-lg text-white;
+}
+
+.bg-primary {
+  @apply bg-orange-300;
+}

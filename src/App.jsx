@@ -1,10 +1,19 @@
 
 import './App.css'
+import Footer from './components/Footer'
+import Form from './components/Form'
+import Header from './components/Header'
+import Items from './components/Items'
 
 function App() {
 
   return (
-    <div className='bg-green-500'>HELLO</div>
+    <>
+      <Header />
+      <Form />
+      <Items />
+      <Footer />
+    </>
   )
 }
 
